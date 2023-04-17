@@ -1,0 +1,14 @@
+{
+    "name": "fobal-ts",
+    "version": "1.0.0",
+    "repository": "git@shonifari.github.com:shonifari/fobal-ts.git",
+    "author": "Karis Omotosho <karomo.sm@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+    },
+    "devDependencies": {
+        "parcel": "^2.5.0",
+        "typescript": "^5.0.4"
+    }
+}

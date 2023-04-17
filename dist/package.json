@@ -1,0 +1,30 @@
+{
+    "name": "fobal-ts",
+    "version": "0.0.1",
+    "description": "TypeScript SDK for FobalAPI",
+    "main": "lib/es5/index.js",
+    "module": "lib/es6/index.js",
+    "sideEffects": false,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shonifari/fobal-ts.git"
+    },
+    "files": [
+      "lib",
+      "CHANGELOG.md",
+      "LICENSE",
+      "package.json",
+      "README.md"
+    ],
+    "keywords": [
+      "javascript",
+      "fobal",
+      "fobalAPI"
+    ],
+    "author": "Oleksandr Kocherhin",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/shonifari/fobal-ts/issues"
+    },
+    "homepage": "https://github.com/shonifari/fobal-ts#readme"
+  }
