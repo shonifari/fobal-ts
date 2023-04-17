@@ -5,10 +5,15 @@
     "author": "Karis Omotosho <karomo.sm@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+        "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
+        "parcel" : "parcel ./test/index.html"
+
     },
     "devDependencies": {
-        "parcel": "^2.5.0",
+        "parcel": "^2.8.3",
         "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "fobal-ts": "^0.0.1"
     }
 }
