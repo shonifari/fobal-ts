@@ -1,3 +1,5 @@
-const {Fobal} = require("fobal-ts");
-const fobal = new Fobal("apiKey");
-console.log(fobal.apiKey);
+const {Client} = require("fobal-ts");
+const fobal = new Client("apiKey");
+
+leagues = fobal.getLeagues();
+console.log(leagues);

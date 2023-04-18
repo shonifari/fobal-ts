@@ -21,10 +21,10 @@
       "fobal",
       "fobalAPI"
     ],
-    "author": "Oleksandr Kocherhin",
+    "author": "Karis Omotosho",
     "license": "MIT",
     "bugs": {
       "url": "https://github.com/shonifari/fobal-ts/issues"
     },
-    "homepage": "https://github.com/shonifari/fobal-ts#readme"
+    "homepage": "https://github.com/shonifari/fobal-ts#README.md"
   }
